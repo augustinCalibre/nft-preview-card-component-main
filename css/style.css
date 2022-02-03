@@ -1,0 +1,102 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
+}
+
+.card_main {
+  margin: auto;
+  margin-top: 20%;
+  align-items: center;
+  width: 70%;
+  height: 50%;
+  padding: 15px;
+  background-color: #14253d;
+  box-shadow: 15px 8px 25px 15px #0d192b;
+  border-radius: 20px;
+}
+.card_main .card_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.card_main .card_text span p {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.card_main .card_text p {
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+}
+.card_main .card_text .card_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+}
+.card_main .card_text .card_details .money {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.card_main .card_text .card_details .money img {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
+.card_main .card_text .card_details .money p {
+  font-size: 15px;
+  color: #00fff7;
+}
+.card_main .card_text .card_details .time {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.card_main .card_text .card_details .time img {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
+.card_main .card_text .card_details .time p {
+  font-size: 15px;
+}
+.card_main .line {
+  width: 80%;
+  height: 2px;
+  margin: auto;
+  background-color: #2f415b;
+}
+.card_main .card_fotter {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card_main .card_fotter img {
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 88px;
+}
+.card_main .card_fotter p {
+  font-size: 13px;
+  color: white;
+}
+.card_main .card_fotter p span {
+  color: #2f415b;
+}
+
+/*# sourceMappingURL=style.css.map */
