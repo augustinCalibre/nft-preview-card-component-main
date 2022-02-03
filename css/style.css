@@ -10,14 +10,13 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: #0d192b;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 
 .card_main {
-  margin: auto;
-  margin-top: 20%;
-  align-items: center;
   width: 70%;
-  height: 50%;
   padding: 15px;
   background-color: #14253d;
   box-shadow: 15px 8px 25px 15px #0d192b;
@@ -74,12 +73,10 @@ body {
 .card_main .line {
   width: 80%;
   height: 2px;
-  margin: auto;
+  margin: 0 auto;
   background-color: #2f415b;
 }
 .card_main .card_fotter {
-  width: auto;
-  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -97,6 +94,48 @@ body {
 }
 .card_main .card_fotter p span {
   color: #2f415b;
+}
+
+.card_img {
+  position: relative;
+}
+.card_img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 20px;
+  transition: background-color 0ms ease;
+}
+.card_img .eyeParents {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+}
+.card_img .eyeParents .iconView {
+  width: 100px;
+  height: auto;
+}
+
+.card_img:hover .eyeParents {
+  opacity: 1;
+}
+.card_img:hover .overlay {
+  background-color: #00fff7;
+}
+
+@media only screen and (min-width: 1440px) {
+  .card_main {
+    width: 18%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
