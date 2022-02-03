@@ -15,7 +15,7 @@
 .DS_Store
 .prettierignore
 
-.dart-sass
+*.dart-sass
 
-./css/style.css.map
-.style.scss
+*./css/style.css.map
+*.style.scss
